@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-ChatGPT_Text/Pods-ChatGPT_Text-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework
