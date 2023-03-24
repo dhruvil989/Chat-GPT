@@ -27,7 +27,7 @@ class ChatVC: UIViewController {
     
     //MARK: - Variable
     var arrChats: [OpenAPIResponse] = []
-    var arrQuestion = ["What is swift programming language?", "creative ideas for a 10 year old's birthday?", "How do I make an HTTP request in Javascript?"]
+    var arrQuestion = ["What is swift programming language?", "Creative ideas for a 10 year old's birthday?", "How do I make an HTTP request in Javascript?"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
