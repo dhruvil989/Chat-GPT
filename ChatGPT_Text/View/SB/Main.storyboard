@@ -633,10 +633,10 @@
                                         </connections>
                                     </button>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fct-DM-WWd">
-                                        <rect key="frame" x="0.0" y="54" width="414" height="764"/>
+                                        <rect key="frame" x="0.0" y="54" width="414" height="689"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bN7-vd-EeY" customClass="LottieAnimationView" customModule="Lottie">
-                                                <rect key="frame" x="157" y="312" width="100" height="100"/>
+                                                <rect key="frame" x="157" y="274.5" width="100" height="100"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="eCp-Qk-6K5"/>
@@ -647,7 +647,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.16503173828125001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.13856410980224609" green="0.049128241837024689" blue="0.034953784197568893" alpha="0.17018684387207031" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="bN7-vd-EeY" firstAttribute="centerY" secondItem="Fct-DM-WWd" secondAttribute="centerY" constant="-20" id="XJI-Ro-0Tb"/>
                                             <constraint firstItem="bN7-vd-EeY" firstAttribute="centerX" secondItem="Fct-DM-WWd" secondAttribute="centerX" id="bq9-tC-why"/>
@@ -659,7 +659,7 @@
                                     <constraint firstAttribute="bottom" secondItem="Yj4-27-EDU" secondAttribute="bottom" constant="20" id="4ru-Rl-w7b"/>
                                     <constraint firstItem="jaa-jI-z99" firstAttribute="leading" secondItem="xaf-4s-vJI" secondAttribute="leading" id="5Jq-fQ-dbt"/>
                                     <constraint firstAttribute="trailing" secondItem="Yj4-27-EDU" secondAttribute="trailing" constant="20" id="6Op-8D-jut"/>
-                                    <constraint firstAttribute="bottom" secondItem="Fct-DM-WWd" secondAttribute="bottom" id="C2P-Td-2Qm"/>
+                                    <constraint firstItem="Yj4-27-EDU" firstAttribute="top" secondItem="Fct-DM-WWd" secondAttribute="bottom" id="C2P-Td-2Qm"/>
                                     <constraint firstAttribute="trailing" secondItem="jaa-jI-z99" secondAttribute="trailing" id="DqV-EV-1b9"/>
                                     <constraint firstItem="Fct-DM-WWd" firstAttribute="leading" secondItem="xaf-4s-vJI" secondAttribute="leading" id="EuI-A2-adG"/>
                                     <constraint firstAttribute="trailing" secondItem="Fct-DM-WWd" secondAttribute="trailing" id="KdQ-zR-pnM"/>

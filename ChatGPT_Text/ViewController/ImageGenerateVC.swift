@@ -36,6 +36,8 @@ class ImageGenerateVC: UIViewController {
             self.txtField.text = ""
             self.mainLoaderVw.isHidden = false
             view.endEditing(true)
+            generateBtn.isSelected = true
+            generateBtn.setTitle("Generating Images..", for: .selected)
             generateImage(text: text, num: 10)
         } else {
             showAlert(message: "Type Something...")
@@ -62,6 +64,8 @@ class ImageGenerateVC: UIViewController {
                 
                 DispatchQueue.main.async {
                     self.mainLoaderVw.isHidden = true
+                    self.generateBtn.isSelected = false
+                    self.generateBtn.setTitle("Generate Image", for: .normal)
                     self.moveToImagesVC()
                 }
                 
