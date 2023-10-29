@@ -526,6 +526,7 @@
 				DEVELOPMENT_TEAM = WB38Z9TK7G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatGPT_Text/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chat-Boat";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -557,6 +558,7 @@
 				DEVELOPMENT_TEAM = WB38Z9TK7G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatGPT_Text/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chat-Boat";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
